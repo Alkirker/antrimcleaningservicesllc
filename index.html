@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Antrim Cleaning Services LLC</title>
+
+  <meta
+
+    name="description"
+
+    content="Antrim Cleaning Services LLC provides dependable office cleaning and rental property turnover services using eco-friendly products."
+
+  />
+
+  <style>
+
+    :root {
+
+      --navy: #1f7a7a;
+
+      --navy-dark: #145c5c;
+
+      --text: #18344a;
+
+      --muted: #6a7885;
+
+      --bg: #f4f9f8;
+
+      --card: #ffffff;
+
+      --pill: #e7f4f2;
+
+      --border: #d5e7e4;
+
+    }
+
+
+
+    * {
+
+      box-sizing: border-box;
+
+    }
+
+
+
+    html {
+
+      scroll-behavior: smooth;
+
+    }
+
+
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      background: var(--bg);
+
+      color: var(--text);
+
+      line-height: 1.45;
+
+    }
+
+
+
+    .container {
+
+      width: min(1100px, 92%);
+
+      margin: 0 auto;
+
+    }
+
+
+
+    header {
+
+      background: #f7fbfa;
+
+      border-bottom: 1px solid #dceae7;
+
+      position: sticky;
+
+      top: 0;
+
+      z-index: 50;
+
+      backdrop-filter: blur(6px);
+
+    }
+
+
+
+    .topbar {
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 18px;
+
+      padding: 18px 0;
+
+    }
+
+
+
+    .brand {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 16px;
+
+      min-width: 0;
+
+    }
+
+
+
+    .logo-box {
+
+      width: 82px;
+
+      height: 82px;
+
+      border-radius: 18px;
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      overflow: hidden;
+
+      flex-shrink: 0;
+
+      box-shadow: 0 2px 8px rgba(22, 54, 94, 0.05);
+
+      padding: 6px;
+
+    }
+
+
+
+    .logo-box svg {
+
+      width: 100%;
+
+      height: 100%;
+
+      display: block;
+
+    }
+
+
+
+    .brand-text {
+
+      min-width: 0;
+
+    }
+
+
+
+    .brand-text h1 {
+
+      margin: 0;
+
+      font-size: 1.9rem;
+
+      line-height: 1.05;
+
+      color: var(--text);
+
+    }
+
+
+
+    .brand-text p {
+
+      margin: 8px 0 0;
+
+      color: var(--muted);
+
+      font-size: 1.1rem;
+
+      font-weight: 600;
+
+    }
+
+
+
+    .quote-btn {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      text-align: center;
+
+      background: var(--navy);
+
+      color: #fff;
+
+      text-decoration: none;
+
+      border-radius: 999px;
+
+      padding: 18px 26px;
+
+      min-width: 170px;
+
+      font-weight: 800;
+
+      font-size: 1.15rem;
+
+      box-shadow: 0 8px 18px rgba(31, 122, 122, 0.18);
+
+      transition: 0.2s ease;
+
+    }
+
+
+
+    .quote-btn:hover {
+
+      background: var(--navy-dark);
+
+      transform: translateY(-1px);
+
+    }
+
+
+
+    .hero {
+
+      padding: 44px 0 34px;
+
+    }
+
+
+
+    .badge {
+
+      display: inline-block;
+
+      background: var(--pill);
+
+      color: var(--navy);
+
+      border: 1px solid #d5e7e4;
+
+      padding: 16px 22px;
+
+      border-radius: 999px;
+
+      font-size: 1.05rem;
+
+      font-weight: 800;
+
+      margin-bottom: 24px;
+
+    }
+
+
+
+    .hero-grid {
+
+      display: grid;
+
+      grid-template-columns: 1.2fr 0.8fr;
+
+      gap: 34px;
+
+      align-items: center;
+
+    }
+
+
+
+    .hero h2 {
+
+      font-size: clamp(2.4rem, 4.8vw, 4.8rem);
+
+      line-height: 0.98;
+
+      letter-spacing: -0.04em;
+
+      margin: 0 0 18px;
+
+      color: var(--navy);
+
+      font-weight: 900;
+
+    }
+
+
+
+    .hero p {
+
+      font-size: 1.35rem;
+
+      color: var(--muted);
+
+      margin: 0 0 26px;
+
+      max-width: 780px;
+
+      font-weight: 600;
+
+    }
+
+
+
+    .hero-actions {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 16px;
+
+      margin-bottom: 22px;
+
+    }
+
+
+
+    .btn-primary,
+
+    .btn-secondary {
+
+      display: inline-block;
+
+      padding: 18px 28px;
+
+      border-radius: 999px;
+
+      font-weight: 800;
+
+      text-decoration: none;
+
+      font-size: 1.15rem;
+
+      transition: 0.2s ease;
+
+    }
+
+
+
+    .btn-primary {
+
+      background: var(--navy);
+
+      color: #fff;
+
+      box-shadow: 0 8px 18px rgba(31, 122, 122, 0.18);
+
+    }
+
+
+
+    .btn-primary:hover {
+
+      background: var(--navy-dark);
+
+    }
+
+
+
+    .btn-secondary {
+
+      border: 1px solid #cddfdc;
+
+      background: #fff;
+
+      color: var(--text);
+
+    }
+
+
+
+    .btn-secondary:hover {
+
+      background: #f7fbfa;
+
+    }
+
+
+
+    .tag-list {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 12px;
+
+    }
+
+
+
+    .tag {
+
+      background: #fff;
+
+      border: 1px solid #d8e6e3;
+
+      color: #6f7b87;
+
+      padding: 14px 22px;
+
+      border-radius: 999px;
+
+      font-size: 1rem;
+
+      font-weight: 700;
+
+    }
+
+
+
+    .contact-card {
+
+      background: var(--card);
+
+      border: 1px solid var(--border);
+
+      border-radius: 24px;
+
+      padding: 28px;
+
+      box-shadow: 0 12px 28px rgba(22, 54, 94, 0.06);
+
+    }
+
+
+
+    .contact-card h3 {
+
+      margin: 0 0 14px;
+
+      color: var(--navy);
+
+      font-size: 1.65rem;
+
+    }
+
+
+
+    .contact-card p {
+
+      margin: 0 0 18px;
+
+      color: var(--muted);
+
+      font-size: 1.02rem;
+
+      line-height: 1.55;
+
+    }
+
+
+
+    .contact-item {
+
+      margin: 0 0 14px;
+
+      font-size: 1rem;
+
+      color: var(--text);
+
+    }
+
+
+
+    .contact-item strong {
+
+      display: inline-block;
+
+      min-width: 70px;
+
+      color: var(--navy);
+
+    }
+
+
+
+    .contact-item a {
+
+      color: var(--text);
+
+      text-decoration: none;
+
+      font-weight: 700;
+
+    }
+
+
+
+    .contact-item a:hover {
+
+      text-decoration: underline;
+
+    }
+
+
+
+    section {
+
+      padding: 20px 0 50px;
+
+    }
+
+
+
+    .section-title {
+
+      margin: 0 0 20px;
+
+      color: var(--navy);
+
+      font-size: 2rem;
+
+    }
+
+
+
+    .services-grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      gap: 20px;
+
+    }
+
+
+
+    .service-card {
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+
+      border-radius: 22px;
+
+      padding: 24px;
+
+      box-shadow: 0 10px 24px rgba(22, 54, 94, 0.05);
+
+    }
+
+
+
+    .service-card h4 {
+
+      margin: 0 0 10px;
+
+      color: var(--navy);
+
+      font-size: 1.25rem;
+
+    }
+
+
+
+    .service-card p {
+
+      margin: 0;
+
+      color: var(--muted);
+
+      font-size: 1rem;
+
+    }
+
+
+
+    .about-box {
+
+      background: #fff;
+
+      border: 1px solid var(--border);
+
+      border-radius: 22px;
+
+      padding: 28px;
+
+      box-shadow: 0 10px 24px rgba(22, 54, 94, 0.05);
+
+    }
+
+
+
+    .about-box p {
+
+      margin: 0;
+
+      font-size: 1.06rem;
+
+      color: var(--muted);
+
+    }
+
+
+
+    footer {
+
+      border-top: 1px solid #dbe7e5;
+
+      background: #f7fbfa;
+
+      margin-top: 20px;
+
+    }
+
+
+
+    .footer-inner {
+
+      padding: 24px 0 34px;
+
+      color: var(--muted);
+
+      font-size: 0.98rem;
+
+    }
+
+
+
+    .footer-inner a {
+
+      color: var(--navy);
+
+      text-decoration: none;
+
+      font-weight: 700;
+
+    }
+
+
+
+    .footer-inner a:hover {
+
+      text-decoration: underline;
+
+    }
+
+
+
+    @media (max-width: 920px) {
+
+      .hero-grid,
+
+      .services-grid {
+
+        grid-template-columns: 1fr;
+
+      }
+
+
+
+      .topbar {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+      }
+
+
+
+      .quote-btn {
+
+        width: 100%;
+
+      }
+
+    }
+
+
+
+    @media (max-width: 640px) {
+
+      .container {
+
+        width: min(94%, 94%);
+
+      }
+
+
+
+      .topbar {
+
+        padding: 14px 0;
+
+      }
+
+
+
+      .brand {
+
+        align-items: flex-start;
+
+      }
+
+
+
+      .logo-box {
+
+        width: 74px;
+
+        height: 74px;
+
+        border-radius: 16px;
+
+      }
+
+
+
+      .brand-text h1 {
+
+        font-size: 1.85rem;
+
+      }
+
+
+
+      .brand-text p {
+
+        font-size: 1.05rem;
+
+        line-height: 1.35;
+
+      }
+
+
+
+      .badge {
+
+        width: 100%;
+
+        border-radius: 999px;
+
+        font-size: 0.98rem;
+
+        line-height: 1.4;
+
+      }
+
+
+
+      .hero {
+
+        padding-top: 26px;
+
+      }
+
+
+
+      .hero h2 {
+
+        font-size: 3.25rem;
+
+        line-height: 0.98;
+
+      }
+
+
+
+      .hero p {
+
+        font-size: 1.02rem;
+
+        line-height: 1.55;
+
+      }
+
+
+
+      .hero-actions {
+
+        flex-direction: row;
+
+        gap: 12px;
+
+      }
+
+
+
+      .btn-primary,
+
+      .btn-secondary {
+
+        flex: 1 1 220px;
+
+        text-align: center;
+
+        padding: 16px 20px;
+
+        font-size: 1.02rem;
+
+      }
+
+
+
+      .tag {
+
+        font-size: 0.95rem;
+
+        padding: 12px 18px;
+
+      }
+
+
+
+      .contact-card {
+
+        padding: 22px;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <div class="container topbar">
+
+      <div class="brand">
+
+        <div class="logo-box" aria-label="Antrim Cleaning Services LLC logo">
+
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+
+            <rect x="0" y="0" width="200" height="200" rx="24" fill="#ffffff"/>
+
+            <path d="M58 72c14-24 42-33 72-26-17 4-30 14-40 31 20-10 43-8 62 6-17 2-31 9-42 23-17-11-34-17-52-18z" fill="#1f7a7a"/>
+
+            <path d="M55 102c16-7 32-7 49 0-13 7-21 17-25 31-8-8-16-18-24-31z" fill="#2f9e74"/>
+
+            <path d="M118 49c9 7 15 17 17 29-11-4-23-4-35 0 3-12 9-22 18-29z" fill="#86c56f"/>
+
+            <circle cx="144" cy="61" r="5" fill="#86c56f"/>
+
+            <circle cx="156" cy="72" r="4" fill="#86c56f"/>
+
+            <circle cx="164" cy="86" r="3.5" fill="#86c56f"/>
+
+            <text x="100" y="138" text-anchor="middle" font-size="20" font-weight="700" fill="#18344a" font-family="Arial, Helvetica, sans-serif">ANTRIM</text>
+
+            <text x="100" y="156" text-anchor="middle" font-size="8.5" font-weight="700" fill="#5f6e7b" font-family="Arial, Helvetica, sans-serif" letter-spacing=".8">CLEANING SERVICES LLC</text>
+
+          </svg>
+
+        </div>
+
+
+
+        <div class="brand-text">
+
+          <h1>Antrim Cleaning<br />Services LLC</h1>
+
+          <p>Veteran-Owned • Eco-Friendly • Professional Cleaning</p>
+
+        </div>
+
+      </div>
+
+
+
+      <a class="quote-btn" href="#contact">Request<br />a Quote</a>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="container">
+
+        <div class="badge">
+
+          Veteran-Owned • Neurodivergent-Supportive • Eco-Friendly
+
+        </div>
+
+
+
+        <div class="hero-grid">
+
+          <div>
+
+            <h2>Dependable cleaning for offices and rental turnovers.</h2>
+
+            <p>
+
+              Antrim Cleaning Services LLC provides reliable, detail-focused cleaning
+
+              using eco-friendly products. We help businesses and property owners keep
+
+              spaces fresh, professional, and ready for the next workday, guest, or tenant.
+
+            </p>
+
+
+
+            <div class="hero-actions">
+
+              <a class="btn-primary" href="#contact">Get a Free Quote</a>
+
+              <a class="btn-secondary" href="#services">View Services</a>
+
+            </div>
+
+
+
+            <div class="tag-list">
+
+              <span class="tag">Office spaces</span>
+
+              <span class="tag">Rental property turnovers</span>
+
+              <span class="tag">Eco-friendly products</span>
+
+              <span class="tag">Respectful, professional service</span>
+
+            </div>
+
+          </div>
+
+
+
+          <aside class="contact-card" id="contact">
+
+            <h3>Contact Us</h3>
+
+            <p>
+
+              Reach out for a free quote or to discuss recurring cleaning or turnover services.
+
+            </p>
+
+
+
+            <p class="contact-item">
+
+              <strong>Phone:</strong>
+
+              <a href="tel:8048731704">804-873-1704</a>
+
+            </p>
+
+
+
+            <p class="contact-item">
+
+              <strong>Email:</strong>
+
+              <a href="mailto:kirker@antrimcleaningservices.com">
+
+                kirker@antrimcleaningservices.com
+
+              </a>
+
+            </p>
+
+
+
+            <p class="contact-item">
+
+              <strong>Hours:</strong> By appointment / quote request
+
+            </p>
+
+
+
+            <div style="margin-top: 20px;">
+
+              <a class="btn-primary" href="mailto:kirker@antrimcleaningservices.com?subject=Quote Request - Antrim Cleaning Services">
+
+                Email for Quote
+
+              </a>
+
+            </div>
+
+          </aside>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="services">
+
+      <div class="container">
+
+        <h3 class="section-title">Our Services</h3>
+
+
+
+        <div class="services-grid">
+
+          <div class="service-card">
+
+            <h4>Office Cleaning</h4>
+
+            <p>
+
+              Dependable routine cleaning for office spaces, work areas, restrooms,
+
+              breakrooms, and common areas.
+
+            </p>
+
+          </div>
+
+
+
+          <div class="service-card">
+
+            <h4>Rental Property Turnovers</h4>
+
+            <p>
+
+              Thorough turnover cleaning to prepare rental units, guest spaces,
+
+              and short-term stays for the next occupant.
+
+            </p>
+
+          </div>
+
+
+
+          <div class="service-card">
+
+            <h4>Eco-Friendly Cleaning</h4>
+
+            <p>
+
+              We prioritize eco-friendly products whenever possible for a cleaner,
+
+              fresher environment.
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="about">
+
+      <div class="container">
+
+        <h3 class="section-title">Why Choose Antrim Cleaning Services LLC</h3>
+
+        <div class="about-box">
+
+          <p>
+
+            We focus on reliability, professionalism, and careful attention to detail.
+
+            As a veteran-owned business, we value consistency, respect, and quality work.
+
+            We strive to create a supportive, easy-to-work-with experience for property
+
+            owners, managers, and business clients who want their spaces cleaned well and
+
+            maintained with care.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <div class="container footer-inner">
+
+      <strong>Antrim Cleaning Services LLC</strong><br />
+
+      Phone:
+
+      <a href="tel:8048731704">804-873-1704</a>
+
+      &nbsp; • &nbsp;
+
+      Email:
+
+      <a href="mailto:kirker@antrimcleaningservices.com">kirker@antrimcleaningservices.com</a>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
